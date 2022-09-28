@@ -1,0 +1,94 @@
+face
+div {
+  position: absolute;
+  /* uncomment to see all the shapes */
+  /* border: 1px solid #900; */
+}
+
+.color-face { background: #DABCA1; }
+.color-ear { background: #DABCA1; }
+.color-beard { background: #f0f0f0; }
+.color-mouth { background: #aa0000; }
+
+
+.face {
+  position: relative;
+  width: 180px;
+  height: 280px;
+  left: 30px;
+  top: 30px;
+  border-radius: 40%;
+}
+
+.eye {
+  background: #0000ff;
+  width: 10%;
+  height: 10%;
+  top: 40%;
+  border-radius: 50%;
+}
+.eye-left { left: 25%;  }
+.eye-right { right: 25%; }
+
+
+.glasses {
+  width: 30%;
+  height: 15%;
+  top: 36%;
+  border-radius: 42%;
+  border: 5px solid #333;
+}
+.glasses-left { left: 12%;  }
+.glasses-right { right: 12%; }
+.stem {
+  background-color: #333;
+  width:40%;
+  height: 10%;
+  top:30%;
+}
+.stem-left { left: -40%; transform: rotate(8deg); }
+.stem-right { right: -40%; transform: rotate(-8deg); }
+
+.ear {
+  width: 20%;
+  height: 30%;
+  top: 40%;
+  border-radius: 50%;
+}
+.ear-left { left: -12%; transform: rotate(-8deg); }
+.ear-right { right: -12%; transform: rotate(8deg); }
+
+.beard {
+  width: 80%;
+  height: 45%;
+  left: 10%;
+  bottom: -5%;
+  border-radius: 40%;
+}
+.mouth {
+  width: 40%;
+  height: 20px;
+  left: 30%;
+  bottom: 15%;
+  border-radius: 50%;
+}
+
+.hair1 {
+  z-index: -10;
+  width: 110%;
+  height: 50%;
+  left: -5%;
+  top: 0%;
+  border-radius: 40%;
+}
+.hair2 {
+  width: 80%;
+  height: 20%;
+  left: 10%;
+  top: -5%;
+  border-radius: 50%;
+}
+
+body{
+  background-color: powerblue;
+}
